@@ -22,8 +22,7 @@ Fashion Galore is an e-commerce platform offering a wide range of trendy fashion
 2. Open `index.html` in your web browser to start shopping.
 
 ## Contributors
-- John Doe
-- Jane Smith
+- Sandiso Mtakati
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
