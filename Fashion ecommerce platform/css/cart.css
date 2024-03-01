@@ -1,0 +1,90 @@
+/* Cart page specific styles */
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh; /* Ensure the body covers the entire viewport height */
+    background-color: var(--orange); /* Set the background color for the entire screen */
+}
+
+header {
+    color: #fff;
+    padding: 1.5rem 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header h1 span {
+    color: #fff;
+}
+
+.icons i {
+    color: #fff;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.cart-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 6rem 0; /* Add padding to the top and bottom for spacing */
+}
+
+.cart-items {
+    width: 70%;
+}
+
+.cart-summary {
+    background: #f4f4f4;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 25%;
+}
+
+.cart-summary h2 {
+    color: var(--orange);
+    margin-bottom: 1.5rem;
+}
+
+.summary-details p {
+    margin-bottom: 1rem;
+}
+
+#checkout-btn {
+    background-color: #ff8c00; /* Updated background color */
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+
+#checkout-btn:hover {
+    background-color: #ffaa00; /* Updated hover background color */
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    width: 100%;
+}
